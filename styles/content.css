@@ -1,0 +1,33 @@
+main {
+  background-image: url("../images/pokemons-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - var(--header-height));
+  margin-top: var(--header-height);
+  padding-top: 5rem;
+}
+
+.pokemon-container {
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  margin: auto;
+  background-color: var(--header-color);
+  border-radius: 10px;
+  box-shadow: 0 3px 8px -3px gray;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pokemon-avatar {
+  height: 250px;
+  width: 250px;
+}
+
+.pokemon-dropdown {
+  width: 10rem;
+  height: 2rem;
+}

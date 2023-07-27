@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/menu.css" />
+    <link rel="stylesheet" href="styles/content.css" />
+    <script
+      src="https://kit.fontawesome.com/9424d2b80a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Pokémons</title>
+  </head>
+  <body>
+    <nav class="header">
+      <div class="pokemon-logo">
+        <img src="images/pokemon.png" alt="pokemon_logo" />
+      </div>
+      <div class="full-menu">
+        <ul>
+          <a href=""><li>Stats</li></a>
+          <a href=""><li>Ranks</li></a>
+          <a href=""><li>Randomizer</li></a>
+          <a href=""><li>Links</li></a>
+        </ul>
+      </div>
+      <div class="menu-icon">
+        <i id="icon" class="fa-solid fa-bars fa-xl"></i>
+      </div>
+    </nav>
+    <main>
+      <div class="pokemon-container">
+        <h2>Select pokémon</h2>
+        <select id="pokemon-dropdown" class="pokemon-dropdown"></select>
+        <div class="pokemon-avatar">
+          <img id="pokemon-img" src="images/digglet.png" alt="pokemon image" />
+        </div>
+      </div>
+    </main>
+    <!-- scripts -->
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/content.js"></script>
+  </body>
+</html>
